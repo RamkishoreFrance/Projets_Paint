@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Drawing App</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <canvas id="drawingCanvas" width="800" height="600"></canvas>
+
+    <!-- Palette de couleurs -->
+    <div id="colorPicker">
+        <div class="color" data-color="black"></div>
+        <div class="color" data-color="red"></div>
+        <div class="color" data-color="orange"></div>
+        <div class="color" data-color="yellow"></div>
+        <div class="color" data-color="green"></div>
+        <div class="color" data-color="blue"></div>
+        <div class="color" data-color="purple"></div>
+    </div>
+
+    <!-- Slider pour ajuster la taille du tracé -->
+    <div id="controls">
+        <label for="brushSize">Taille du tracé :</label>
+        <input type="range" id="brushSize" min="1" max="20" value="5">
+    </div>
+
+    <!-- Bouton Effacer -->
+    <button id="clearCanvas">Effacer</button>
+
+    <!-- Bouton Télécharger l'image -->
+    <button id="saveCanvas">Télécharger l'image</button>
+
+    <!-- Boutons Sauvegarder et Restaurer -->
+    <button id="saveLocal">Sauvegarder dans le navigateur</button>
+    <button id="restoreLocal">Restaurer l'image</button>
+
+    <!-- Lien au fichier main.js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

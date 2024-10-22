@@ -1,0 +1,111 @@
+/* Canvas */
+#drawingCanvas {
+    border: 1px solid black;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Palette de couleurs */
+#colorPicker {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.color {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.color[data-color="black"] {
+    background-color: black;
+}
+
+.color[data-color="red"] {
+    background-color: red;
+}
+
+.color[data-color="orange"] {
+    background-color: orange;
+}
+
+.color[data-color="yellow"] {
+    background-color: yellow;
+}
+
+.color[data-color="green"] {
+    background-color: green;
+}
+
+.color[data-color="blue"] {
+    background-color: blue;
+}
+
+.color[data-color="purple"] {
+    background-color: purple;
+}
+
+/* Slider pour ajuster la taille du pinceau */
+#controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#brushSize {
+    width: 300px;
+}
+
+/* Bouton Effacer */
+#clearCanvas {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#clearCanvas:hover {
+    background-color: #0056b3;
+}
+
+#saveCanvas {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#saveCanvas:hover {
+    background-color: #218838;
+}
+#saveLocal, #restoreLocal {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#saveLocal:hover {
+    background-color: #138496;
+}
+
+#restoreLocal:hover {
+    background-color: #138496;
+}

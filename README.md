@@ -1,6 +1,4 @@
 
-Voici votre README.md pour le projet Paint Drawing App, sans section d'installation, et incluant le lien vers votre site GitHub Pages.
-
 🖌️ Paint Drawing App
 Une application de dessin simple et interactive qui vous permet de dessiner, d'ajuster la taille du pinceau, de changer de couleur, d'effacer, de télécharger et de sauvegarder vos créations.
 
